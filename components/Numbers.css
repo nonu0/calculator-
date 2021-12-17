@@ -1,0 +1,44 @@
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: repeat(5, 6rem);
+    height: 22px;
+    color: whitesmoke;
+    gap: .3rem;
+}
+button{
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+    border:none;
+    border-radius: 1rem;
+}
+button:hover{
+    background:rgb(158, 201, 236);
+}
+.one{
+    display: grid;
+    color:black;
+    grid-column: span 2;
+    background:skyblue;
+    align-items: center;
+}
+.twelve{
+    display: grid;
+    background:skyblue;
+    color:black;
+    grid-column: span 2;
+    align-items: center;
+}
+.blue-btn{
+    background-color: skyblue;
+    color: black;
+}
+ input{
+  height: 80px;
+  border:none;
+  width: 99.5%;
+  color: whitesmoke;
+  background:black;
+  text-align: right;
+} 
